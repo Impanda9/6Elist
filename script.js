@@ -19,7 +19,7 @@ document.getElementById("quiz-form").addEventListener("submit", function(event) 
     localStorage.setItem("Oldest employe", answerValue);
     console.log("Selected answer registered in local storage:", answerValue);
 
-    window.location.href = "7.MissNR.html";
+    window.location.href = "https://impanda9.github.io/7Missnr/";
   } else {
     console.log("No answer selected");
   }
